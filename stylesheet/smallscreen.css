@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  .header {
+    height: 4rem;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  #toggle:checked ~ .nav {
+    display: inline-block;
+  }
+
+  .bar {
+    display: block;
+    z-index: 99;
+    right: 4rem;
+    top: 1rem;
+    position: fixed;
+    font-size: 1.7rem;
+    color: var(--primary);
+  }
+}/*# sourceMappingURL=smallscreen.css.map */

@@ -116,4 +116,8 @@ h6 {
   width: 100%;
   z-index: 999;
   top: 0px;
+}
+
+.bar, #toggle {
+  display: none;
 }/*# sourceMappingURL=general.css.map */

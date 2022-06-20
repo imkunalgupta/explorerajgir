@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Rajgir</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,11 +18,25 @@
               <a href="index.html"><img src="assets/rajgirlogp.png" style="height:65px; width:280px" alt="rajgir logo">
               </a>
             </div>
-            <nav class="justify">
-              <a href="index.html">Home</a>
-              <a href="places to visit.html">Places To Visit</a>
-              <a href="things to do.html">Things to do</a>
-              <a href="#contact">Help</a>
+            <label class="bar" for="toggle">
+              <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+            <nav class="justify nav sm-flex-column">
+              <ul class=" flex sm-flex-column">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="places to visit.html">Places To Visit</a>
+                </li>
+                <li>
+                  <a href="things to do.html">Things to do</a>
+                </li>
+                <li>
+                  <a href="#contact">Help</a>
+                </li>
+              </ul>
             </nav>
         </div> 
         <h1>Explore Rajgir</h1>
@@ -148,12 +164,12 @@
           </section>
       </main>
       <footer>
-        <div class="footer flex">
+        <div class="footer flex sm-flex-column">
           <div class="logo">
-            <a href="?pg=home"><img src="assets/rajgirlogp.png" style="height:65px; width:280px" alt="rajgir logo">
+            <a href="index.html"><img src="assets/rajgirlogp.png" style="height:65px; width:200px" alt="rajgir logo">
             </a>
           </div>
-          <section class="sm-flex-column sm-padding-bottom">
+          <section>
             <div class="container footer-grid">
               <div class="copyright">
                 &copy Copyright <strong>Explore Rajgir</strong>. All right Reserved <br> Designed by <small>Kunal Gupta</small>
